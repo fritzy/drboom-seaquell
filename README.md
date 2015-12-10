@@ -1,6 +1,6 @@
 # Dr. Boom: Postgres
 
-[![npm i pgboom](https://nodei.co/npm/pgboom.png)](https://www.npmjs.com/package/pgboom)
+![npm i drboom-seaquell](https://nodei.co/npm/drboom-seaquell.png)
 
 Auto-cast errors from `seaquell` into Hapi HTTP Errors.
 
