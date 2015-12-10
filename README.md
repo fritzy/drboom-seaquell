@@ -1,8 +1,8 @@
-# Dr. Boom: Postgres
+# Dr. Boom: Seaquell
 
 ![npm i drboom-seaquell](https://nodei.co/npm/drboom-seaquell.png)
 
-Auto-cast errors from `seaquell` into Hapi HTTP Errors.
+Auto-cast errors from [SeaQuell](https://github.com/fritzy/seaquell) into Hapi HTTP Errors.
 
 ##Example / Boilerplate
 
