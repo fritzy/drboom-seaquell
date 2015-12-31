@@ -12,6 +12,7 @@ Plugin registration boilerplate:
 var hapi = require('hapi');
 var config = require('./config.json');
 var Boom = require('boom');
+var Seaquell = require('seaquell');
 
 var server = new hapi.Server();
 server.connection(config);
@@ -19,7 +20,7 @@ server.connection(config);
 server.register([{
     register: require('drboom'), 
     options: {
-        plugins: [require('drboom-seaquell')()]
+        plugins: [require('drboom-seaquell')({Seaquell: Seaquell, Boom: Boom})]
     },
 }, function (err) {
     server.log(['startup'], 'Loaded pgboom plugin');

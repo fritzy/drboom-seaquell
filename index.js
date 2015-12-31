@@ -1,9 +1,9 @@
 'use strict';
 
-const Boom = require('boom');
-const Seaquell = require('seaquell');
-
 module.exports = (options) => {
+
+  const Seaquell = options.Seaquell;
+  const Boom = options.Boom;
 
   return {
 
