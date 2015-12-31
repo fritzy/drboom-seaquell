@@ -1,6 +1,6 @@
 {
   "name": "drboom-seaquell",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "An extension for drboom to catch errors from seaquell.",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,5 @@
   },
   "author": "Nathan Fritz",
   "license": "MIT",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
