@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "boom": "^3.0.0",
-    "seaquell": "^0.6.0"
+    "seaquell": "^0.17.1"
   }
 }
